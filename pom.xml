@@ -14,7 +14,7 @@
 	<name>Spring Boot with Docker and K8s</name>
 	<description>Demo project for Spring Boot, Docker, and K8s</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -30,6 +30,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>app</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
